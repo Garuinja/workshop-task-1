@@ -14,4 +14,4 @@ The above code is what I had put in which made it only appear on a diagonal line
     makeduck(random(0,width),random(0,height)); 
   }
 
-The above code is the for loop I used and it was pretty easy as I was just copying the code from the workshop but for some reason the ducks were randomly moving around. I then realised that I had put the for loop in the draw function rather than the setup this was also what made the duck bounce on a string before as I had also written the code in the draw function.
+The above code is the for loop I used and it was pretty easy as I was just copying the code from the workshop but for some reason the ducks were randomly moving around. I then realised that I had put the for loop in the draw function rather than the setup this was also what made the duck bounce on a string before as I had also written the code in the draw function. After placing the for loop in the setup function, everything worked perfectly.
