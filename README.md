@@ -1,3 +1,4 @@
+Link - https://garuinja.github.io/workshop-task-1/
 I decided to make a duck. I first started with a circle for the head, an arc for the body, a triangle for the beak and two circles for the eye. When creating arcs there tends to be an area that is not covered by a stroke so I used a line to cover that bit so that the body and the head looked more connected. I hadn't used a line before so I had to look it up on the p5js reference page (https://p5js.org/reference/p5/line/). After making the duck I put it into a function called "makeduck()" and tried to make it flexible so that it would work like the lollipop function that is shown in the workshop video. The function was then modified to "makeduck(x,y)" which would allow it to take in different x and y coordinates. To test it out i put in the code 
 
  let newduck = random(0, width);
