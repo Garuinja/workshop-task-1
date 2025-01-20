@@ -22,7 +22,7 @@ function makeduck(x, y){
   fill(250,92,1);
   triangle(x - 42,y + 15,x - 21,y + 15,x - 24,y);
   fill(0);
-  circle(x,y,20);
+  ellipse(x,y,25,20);
   fill(255);
   circle(x - 4,y - 5,10);
 }
