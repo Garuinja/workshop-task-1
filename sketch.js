@@ -1,3 +1,5 @@
+let x = 0;
+let modifier;
 function setup() {
   createCanvas(400, 400);
   background(220);
@@ -9,7 +11,15 @@ function setup() {
 function draw() {
   // background(220);
   // for(x=0;x<30;x++){
-  //   makeduck(random(0,width),random(0,height)); 
+  makeduck(random(0,width),random(0,height));
+  rect(x,0,20, height);
+  if(x == 0){
+    modifier = 1;
+  }else if(x == width - 20){
+    modifier = -1;
+  }
+  x = x + modifier;
+  //makeduck(random(0,width),random(0,height)); 
   // }
   // let newduck = random(0, width);
   // makeduck(newduck, newduck+10);
@@ -22,7 +32,7 @@ function makeduck(x, y){
   fill(250,92,1);
   triangle(x - 42,y + 15,x - 21,y + 15,x - 24,y);
   fill(0);
-  ellipse(x,y,25,20);
+  ellipse(x,y,20,20);
   fill(255);
   circle(x - 4,y - 5,10);
 }
