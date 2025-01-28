@@ -17,4 +17,9 @@ The above code is what I had put in which made it only appear on a diagonal line
 
 The above code is the for loop I used and it was pretty easy as I was just copying the code from the workshop but for some reason the ducks were randomly moving around. I then realised that I had put the for loop in the draw function rather than the setup this was also what made the duck bounce on a string before as I had also written the code in the draw function. After placing the for loop in the setup function, everything worked perfectly.
 
-Just an update, I forgot to experiment with 1 new item from the p5js reference page so instead of two circles for the duck's eye I used an elipses for the black dot with a white circle going over it.
+### Update
+### Brief Account of Experimentation
+- For the workshop task I forgot to experiment with 1 new item from the p5js reference page so on the 24th of January I replaced one of the circles used for the eyes with an ellipse. Now, at the time of writing this update, I have updated the code to not only continually draw ducks but to also have a wipe bar so that as the bar goes across the screen the bottom layer gets removed. The bar was something I had discovered whilst first working on the workshop task because I had wanted something to be moving over the ducks while the ducks were being drawn. In this new update the bar now moves from left to right in a loop while removing the ducks below it.
+
+### Future Development
+- I want to be able to make it so that the sketch is in a loop where the ducks are created and then the wiper bar wipes off the ducks and returns to it's position and then ducks are created again and so on and so forth.
